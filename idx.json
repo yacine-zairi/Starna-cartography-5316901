@@ -1,0 +1,11 @@
+{
+  "serverless": [
+    {
+      "name": "skyfield-api",
+      "src": "src/serverless/skyfield_api.py",
+      "runtime": "python3.9",
+      "memory": 128,
+      "timeout": 30
+    }
+  ]
+}
